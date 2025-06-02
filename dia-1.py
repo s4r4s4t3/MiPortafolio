@@ -108,3 +108,4 @@ print(f"La altura es {estatura}")
 #10-Mostrá un mensaje de bienvenida personalizado como: “Hola Ezequiel, bienvenido al mundo Python!”
 nombre = input("Decime tu nombre: ")
 print(f"Hola {nombre}, bienvenido al mundo de Python")
+

@@ -1,65 +1,65 @@
 #🧠 Repaso Día 1 - Variables, input, print, tipos de datos
 
 #1-Crea una variable para tu nombre, edad y ciudad. Mostralo en una frase usando f-strings.
-#nombre = "Ezequiel"
-#edad = 37 
-#ciudad = "Cabo Frío"
-#print(f"El usuario se llama {nombre}, tiene {edad} años y vive en {ciudad}")
+nombre = "Ezequiel"
+edad = 37 
+ciudad = "Cabo Frío"
+print(f"El usuario se llama {nombre}, tiene {edad} años y vive en {ciudad}")
 
 #2-Pedile al usuario su comida favorita y su color favorito. Mostrá un mensaje divertido con esa información.
 
-#comida = input("Cuál es tu comida favorita? ")
-#color = input("Cuál es tu color favorito? ")
-#print(f"Pero que coincidencia, mi comida favorita tambien es la {comida}, pero que aburrido que te guste el color {color}")
+comida = input("Cuál es tu comida favorita? ")
+color = input("Cuál es tu color favorito? ")
+print(f"Pero que coincidencia, mi comida favorita tambien es la {comida}, pero que aburrido que te guste el color {color}")
 
 #3-Mostrá el tipo de dato de:tu edad,tu altura (ej: 1.75),un valor como "True".
 
-#mi_edad = 37 
-#mi_altura = 1.87
-#valor = True
-#print(type(mi_edad))
-#print(type(mi_altura))
-#print(type(valor))
+mi_edad = 37 
+mi_altura = 1.87
+valor = True
+print(type(mi_edad))
+print(type(mi_altura))
+print(type(valor))
 
 #🔢 Repaso Día 2 - Operaciones, conversión de tipos, len()
 #1-Pedile al usuario dos números y mostrá la suma, resta, multiplicación y división.
 
-#num1 = int(input("Pasáme el primer número: "))
-#num2 = int(input("Pasáme el segundo número: "))
-#print(f"El resultado de la suma es: {num1 + num2}, la resta es: {num1 - num2}, la multiplicación es: {num1 * num2}, y la división es: {round(num1 / num2)}, muy bien!!")
+num1 = int(input("Pasáme el primer número: "))
+num2 = int(input("Pasáme el segundo número: "))
+print(f"El resultado de la suma es: {num1 + num2}, la resta es: {num1 - num2}, la multiplicación es: {num1 * num2}, y la división es: {round(num1 / num2)}, muy bien!!")
 
 #2-Redondeá el resultado de una división a 2 decimales.
 
-#division = 9 / 8
-#redondeando_dos_decimales = round(division, 2)
-#print(redondeando_dos_decimales)
+division = 9 / 8
+redondeando_dos_decimales = round(division, 2)
+print(redondeando_dos_decimales)
 
 #3-Calculá cuántos caracteres tiene una palabra que ingrese el usuario.
 
-#frase = input("Por favor ingresa una frase: ")
-#contando_caracteres = len(frase)
-#print(f"Tu frase tiene {contando_caracteres} caracteres.")
+frase = input("Por favor ingresa una frase: ")
+contando_caracteres = len(frase)
+print(f"Tu frase tiene {contando_caracteres} caracteres.")
 
 
 #4-Convertí una cadena como "42" en número y sumale 8.
 
-#cadena = int("42")
-#suma = cadena + 8
-#print(suma)
+cadena = int("42")
+suma = cadena + 8
+print(suma)
 
 #🧪 Extra (opcional si estás cómodo/a)
 #5-Mostrá el resultado de 5 + True y explicá por qué da eso.
 
-#resultado = 5 + True 
-#print(resultado)  #el resultado es 6 por que en python los valores booleanos son interpretados con valores de 1 para True y 0 para False, no se si es la respuesta al enunciado, pero no la sabía, lo busque y ahora lo sé.
+resultado = 5 + True 
+print(resultado)  #el resultado es 6 por que en python los valores booleanos son interpretados con valores de 1 para True y 0 para False, no se si es la respuesta al enunciado, pero no la sabía, lo busque y ahora lo sé.
 
 #6-Sumá la edad de dos personas, pedida por teclado, y mostrá cuántos años tienen entre ambos.
 
-#persona1 = int(input("Edad de la primera persona: "))
-#persona2 = int(input("Edad de la segunda persona:" ))
+persona1 = int(input("Edad de la primera persona: "))
+persona2 = int(input("Edad de la segunda persona:" ))
 #En este ejercicio no queda claro si se esta preguntando la suma de las edades de las dos personas y mostrar el resultado, o si mostrarlas por separado, en mi caso voy a sumar las edades de ambas. 
 
-#print(f"La suma total entre las dos personas es: {persona1 + persona2}")
+print(f"La suma total entre las dos personas es: {persona1 + persona2}")
 
 #########################################################################################################################
 #########################################################################################################################
