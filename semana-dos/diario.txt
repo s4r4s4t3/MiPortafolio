@@ -1,0 +1,3 @@
+
+Este es mi diario Python
+mañana es un día de solo práctica

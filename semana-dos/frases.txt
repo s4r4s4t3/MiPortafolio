@@ -1,0 +1,10 @@
+
+ La primera frase es: hace calor,
+ la segunda es: estamos en invierno
+ y por último: pero vivimos en brasil
+ La primera frase es: que lindo dia,
+ la segunda es: vamos a la playa
+ y por ultimo: despues vamos a tomar algo
+ La primera frase es: queres caramelos.
+ La segunda frase es: podes comprarlos.
+ La tercera frase es: que buen trabajo.
